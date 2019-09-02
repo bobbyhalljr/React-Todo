@@ -1,0 +1,79 @@
+.completed {
+    text-decoration: line-through;
+}
+
+.todo-app {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.todo-title {
+
+}
+
+.todo-items {
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 
+    0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 20px;
+}
+
+.todos {
+    padding-bottom: 20px;
+    list-style: none;
+}
+
+.todo-form {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-left: 50px;
+}
+
+input[type='text'] {
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    background: #f1f1f1;
+    font-size: 16px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 
+    0 3px 6px rgba(0,0,0,0.23);
+}
+
+input[type='text']:focus {
+    outline: none;
+}
+
+.button-container {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+button {
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 
+    0 3px 6px rgba(0,0,0,0.23);
+    margin: 10px 10px;
+}
+
+.add {
+    background: dodgerBlue;
+    color: #fff;
+}
+
+.clear {
+    background: crimson;
+    color: #fff;
+}
